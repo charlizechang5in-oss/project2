@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+  background-color: black;
+  color: blueviolet;
+  footer{
+    color:rgb(67, 101, 101);
+  }
+  /* TODO Add dark mode styles here. */
+}
+
+.light-mode {
+     background-color: white;
+  color: gray;
+  footer{
+    color:aqua;
+  }
+  /* TODO Add light mode styles here. */
+}
+
+.center {
+  width: 940px;
+  padding: 20px;
+  border: 1px dotted white;
+  margin-left:auto;
+  margin-right:auto;
+  /* TODO Add margins to center. */
+}
+.poem {
+  text-align: center;
+}
+
+footer {
+    color:azure
+  /* TODO Add styles */
+}
+
+.light-mode footer {
+  /* TODO Add footer light mode styles here. */
+  color: violet;
+}
