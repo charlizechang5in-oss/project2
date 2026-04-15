@@ -1,22 +1,19 @@
-* {
+*
+{
   box-sizing: border-box;
 }
 body {
   padding: 20px;
-  background-color: black;
-  color: blueviolet;
-  footer{
-    color:rgb(67, 101, 101);
-  }
+  background:black;
+  color:azure;
   /* TODO Add dark mode styles here. */
 }
 
 .light-mode {
-     background-color: white;
-  color: gray;
-  footer{
-    color:aqua;
-  }
+     padding: 20px;
+  background:rgb(207, 207, 207);
+  color:rgb(0, 0, 0);
+  
   /* TODO Add light mode styles here. */
 }
 
@@ -24,20 +21,20 @@ body {
   width: 940px;
   padding: 20px;
   border: 1px dotted white;
+  /* TODO Add margins to center. */
   margin-left:auto;
   margin-right:auto;
-  /* TODO Add margins to center. */
 }
 .poem {
   text-align: center;
 }
 
 footer {
-    color:azure
   /* TODO Add styles */
+   color:rgb(85, 10, 22);
 }
 
 .light-mode footer {
   /* TODO Add footer light mode styles here. */
-  color: violet;
+   color:rgb(111, 27, 132);
 }
