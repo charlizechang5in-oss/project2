@@ -6,19 +6,34 @@ body {
   padding: 20px;
   background:black;
   color:azure;
+   font-family: "Pacifico", cursive;
+   font-family: "Tektur", sans-serif;
+   font-family: "Bytesized", sans-serif;
   /* TODO Add dark mode styles here. */
+  
 }
 
+h1{
+   font-family: "Pacifico", cursive;
+    font-family: "Tektur", sans-serif;
+    
+}
+i{
+  box-shadow: 10px 5px 5px 0 rgb(53, 3, 65);
+}
 .light-mode {
      padding: 20px;
-  background:rgb(207, 207, 207);
+  background:rgb(184, 2, 132);
   color:rgb(0, 0, 0);
   
   /* TODO Add light mode styles here. */
 }
-
+button{
+  background-image: linear-gradient(to bottom, rgb(157, 0, 0), rgb(145, 219, 144));
+  color: rgb(13, 47, 77);
+}
 .center {
-  width: 940px;
+  max-width: 940px;
   padding: 20px;
   border: 1px dotted white;
   /* TODO Add margins to center. */
@@ -31,10 +46,11 @@ body {
 
 footer {
   /* TODO Add styles */
-   color:rgb(153, 79, 92);
+   color:rgb(255, 255, 255);
+   background-image: linear-gradient(to bottom, rgb(30, 12, 131), rgb(184, 2, 132));
 }
 
 .light-mode footer {
   /* TODO Add footer light mode styles here. */
-   color:rgb(111, 27, 132);
+   color:rgb(0, 0, 0);
 }
