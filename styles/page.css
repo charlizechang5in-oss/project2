@@ -23,7 +23,7 @@ i{
 }
 .light-mode {
      padding: 20px;
-  background:rgb(184, 2, 132);
+  background:rgb(255, 255, 255);
   color:rgb(0, 0, 0);
   
   /* TODO Add light mode styles here. */
@@ -52,5 +52,5 @@ footer {
 
 .light-mode footer {
   /* TODO Add footer light mode styles here. */
-   color:rgb(0, 0, 0);
+   color:rgb(255, 255, 255);
 }
