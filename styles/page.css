@@ -29,8 +29,8 @@ i{
   /* TODO Add light mode styles here. */
 }
 button{
-  background-image: linear-gradient(to bottom, rgb(157, 0, 0), rgb(145, 219, 144));
-  color: rgb(13, 47, 77);
+  background: white;
+  color: rgb(0, 140, 255);
 }
 .center {
   max-width: 940px;
@@ -53,4 +53,29 @@ footer {
 .light-mode footer {
   /* TODO Add footer light mode styles here. */
    color:rgb(255, 255, 255);
+}
+
+
+#calculator{
+  background-color: rgb(151, 151, 151);
+  padding: 20px;
+  border: 5px solid;
+  width: 200px;
+  height: 300px;
+}
+
+#calculator-buttons{
+  background-color: rgb(99, 99, 99);
+  color: white;
+  border: 2px solid;
+  
+}
+#counter{
+  background-color: rgb(183, 183, 183);
+  padding: 10px;
+  border: 5px;
+}
+#calculator-buttons button{
+  width: 40px;
+  height: 20px;
 }
