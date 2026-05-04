@@ -4,6 +4,7 @@ let addonebutton = document.getElementById("counter-button");
 let counter = document.getElementById("counter");
 let delbutton = document.getElementById("clear-button");
 let minusbutton = document.getElementById("minus-button");
+let minus2button = document.getElementById("minus2-button");
 let Zerobutton = document.getElementById("zero-button");
 let Onebutton = document.getElementById("one-button");
 let Twobutton = document.getElementById("two-button");
@@ -30,6 +31,9 @@ function show(val) {
 }
 
 function plus() {
+    CilckButton = true;
+}
+function minus2() {
     CilckButton = true;
 }
 function equal() {
@@ -150,6 +154,7 @@ function nine() {
 
 //evenlistener
 addonebutton.addEventListener("click", add1);
+minus2button.addEventListener("click", minus2);
 delbutton.addEventListener("click", clear);
 minusbutton.addEventListener("click", minus);
 Zerobutton.addEventListener("click", zero);
